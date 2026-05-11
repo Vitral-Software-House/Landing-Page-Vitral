@@ -1,0 +1,103 @@
+.cta {
+  padding: 140px 0 120px;
+  background: var(--bg-2);
+  color: var(--ink);
+  border-top: 1px solid var(--line);
+  border-bottom: none;
+}
+
+.inner {
+  display: grid;
+  grid-template-columns: 1fr 380px;
+  gap: 80px;
+  align-items: end;
+}
+
+.eyebrow {
+  color: var(--accent);
+  margin-bottom: 32px;
+}
+
+.title {
+  font-size: 88px;
+  line-height: 0.98;
+  letter-spacing: -0.035em;
+  font-weight: 400;
+  margin: 0;
+  max-width: 720px;
+}
+.title :global(.em) {
+  font-family: var(--font-instrument), serif;
+  font-style: italic;
+  color: var(--accent);
+}
+
+.card {
+  border: 1px solid var(--accent);
+  border-radius: var(--radius);
+  padding: 28px;
+  background: var(--accent);
+  color: var(--accent-ink);
+}
+.lbl {
+  font-family: var(--font-geist-mono), monospace;
+  font-size: 11px;
+  opacity: 0.75;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: 8px;
+  color: var(--accent-ink);
+}
+.email {
+  display: block;
+  font-size: 22px;
+  letter-spacing: -0.015em;
+  margin-bottom: 24px;
+  color: var(--accent-ink);
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-top: 1px solid rgba(249, 249, 249, 0.25);
+  font-size: 13px;
+  color: var(--accent-ink);
+}
+.row span:last-child { opacity: 0.78; }
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 16px 26px;
+  background: var(--accent);
+  color: var(--accent-ink);
+  border: 1px solid var(--accent);
+  border-radius: var(--radius);
+  font-size: 15px;
+  font-weight: 500;
+  margin-top: 56px;
+  transition: transform .15s ease, background .15s ease;
+}
+.btn:hover {
+  transform: translateY(-1px);
+  background: var(--accent-soft);
+  border-color: var(--accent-soft);
+}
+.dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--accent-ink);
+}
+
+.wordmark {
+  font-size: clamp(180px, 22vw, 320px);
+  line-height: 0.85;
+  letter-spacing: -0.05em;
+  font-weight: 400;
+  margin: 56px 0 0;
+  color: var(--accent);
+  opacity: 0.10;
+  user-select: none;
+}

@@ -1,0 +1,85 @@
+.hero {
+  padding: 96px 0 120px;
+  border-bottom: 1px solid var(--line);
+  position: relative;
+}
+
+.meta {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 24px;
+  font-size: 12px;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: 56px;
+}
+.meta span:first-child { color: var(--ink); }
+.metaRight { text-align: right; }
+
+.title {
+  font-size: 104px;
+  line-height: 0.96;
+  letter-spacing: -0.035em;
+  font-weight: 400;
+  margin: 0 0 40px;
+  max-width: 1100px;
+}
+.title .accent { color: var(--accent); }
+
+.kicker {
+  font-size: 12px;
+  color: var(--accent);
+  margin: -24px 0 32px;
+  letter-spacing: 0.04em;
+}
+
+.foot {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr 1fr;
+  gap: 56px;
+  align-items: end;
+  margin-top: 64px;
+}
+
+.lede {
+  font-size: 19px;
+  line-height: 1.45;
+  color: var(--ink-2);
+  max-width: 520px;
+  text-wrap: pretty;
+}
+
+.stat {
+  padding: 24px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--card);
+}
+.statOrange {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: var(--accent-ink);
+}
+.statOrange .label {
+  color: var(--accent-ink);
+  opacity: 0.85;
+}
+.statNumber {
+  font-size: 48px;
+  letter-spacing: -0.03em;
+  line-height: 1;
+  margin-bottom: 8px;
+  font-weight: 400;
+}
+.label {
+  font-size: 12px;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.ctas {
+  display: flex;
+  gap: 12px;
+}
