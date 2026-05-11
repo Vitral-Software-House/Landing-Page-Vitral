@@ -87,3 +87,56 @@
   border-radius: 50%;
   background: var(--accent-ink);
 }
+
+@media (max-width: 768px) {
+  .inner {
+    height: 60px;
+  }
+  
+  .logo {
+    font-size: 13px;
+  }
+  
+  .menu {
+    gap: 24px;
+  }
+  
+  .menu a {
+    font-size: 13px;
+  }
+  
+  .cta {
+    padding: 8px 14px;
+    font-size: 12.5px;
+  }
+}
+
+@media (max-width: 480px) {
+  .inner {
+    height: 56px;
+  }
+  
+  .logo {
+    font-size: 12px;
+    gap: 6px;
+  }
+  
+  .Mark {
+    width: 14px;
+    height: 14px;
+  }
+  
+  .tagline {
+    display: none;
+  }
+  
+  .menu {
+    gap: 12px;
+    display: none;
+  }
+  
+  .cta {
+    padding: 8px 12px;
+    font-size: 11px;
+  }
+}

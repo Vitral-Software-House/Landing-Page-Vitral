@@ -93,3 +93,59 @@
   color: var(--muted);
   max-width: 640px;
 }
+
+@media (max-width: 1024px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .member {
+    padding: 24px;
+  }
+  
+  .name {
+    font-size: 28px;
+  }
+  
+  .role {
+    font-size: 13px;
+  }
+  
+  .meta {
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 480px) {
+  .member {
+    padding: 16px;
+  }
+  
+  .num {
+    font-size: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .name {
+    font-size: 24px;
+    margin-bottom: 2px;
+  }
+  
+  .role {
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+  
+  .meta {
+    margin-top: 16px;
+    padding-top: 12px;
+    gap: 6px;
+  }
+}

@@ -98,6 +98,101 @@
   font-weight: 400;
   margin: 56px 0 0;
   color: var(--accent);
-  opacity: 0.10;
-  user-select: none;
+}
+
+@media (max-width: 1024px) {
+  .inner {
+    grid-template-columns: 1fr;
+    gap: 60px;
+  }
+  
+  .title {
+    font-size: 64px;
+  }
+  
+  .card {
+    padding: 24px;
+  }
+}
+
+@media (max-width: 768px) {
+  .cta {
+    padding: 80px 0 80px;
+  }
+  
+  .eyebrow {
+    margin-bottom: 20px;
+  }
+  
+  .title {
+    font-size: 44px;
+    line-height: 1.05;
+    margin-bottom: 0;
+    max-width: 100%;
+  }
+  
+  .card {
+    margin-top: 40px;
+  }
+  
+  .email {
+    font-size: 18px;
+  }
+  
+  .row {
+    font-size: 12px;
+  }
+  
+  .btn {
+    padding: 12px 20px;
+    font-size: 13px;
+    margin-top: 40px;
+  }
+  
+  .wordmark {
+    font-size: clamp(120px, 16vw, 200px);
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  .cta {
+    padding: 64px 0;
+  }
+  
+  .title {
+    font-size: 32px;
+    line-height: 1.1;
+  }
+  
+  .card {
+    padding: 16px;
+    margin-top: 32px;
+  }
+  
+  .lbl {
+    font-size: 10px;
+    margin-bottom: 6px;
+  }
+  
+  .email {
+    font-size: 16px;
+    margin-bottom: 16px;
+  }
+  
+  .row {
+    font-size: 11px;
+    padding: 8px 0;
+  }
+  
+  .btn {
+    padding: 10px 16px;
+    font-size: 12px;
+    margin-top: 32px;
+  }
+  
+  .wordmark {
+    font-size: clamp(80px, 14vw, 140px);
+    margin: 32px 0 0;
+  }
 }

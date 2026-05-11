@@ -75,3 +75,44 @@
   border-radius: var(--radius);
   color: var(--ink-2);
 }
+
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+  
+  .cap {
+    padding: 24px;
+    gap: 16px;
+  }
+  
+  .title {
+    font-size: 20px;
+  }
+  
+  .desc {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .grid {
+    gap: 12px;
+  }
+  
+  .cap {
+    padding: 16px;
+    grid-template-columns: 48px 1fr;
+  }
+  
+  .title {
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+  
+  .desc {
+    font-size: 13px;
+    margin-bottom: 16px;
+  }
+}
