@@ -38,7 +38,7 @@ export function Footer() {
           <div className={styles.col}>
             <h3>Contato</h3>
             <ul>
-              <li><a href="mailto:projetos@vitral.software">projetos@vitral.software</a></li>
+              <li><a href="mailto:vitral.softwarehouse@gmail.com">vitral.softwarehouse@gmail.com</a></li>
               <li><span>Brasil · Remoto</span></li>
               <li><span>Fundada em 2026</span></li>
             </ul>

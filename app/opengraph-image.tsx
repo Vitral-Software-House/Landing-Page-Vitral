@@ -67,7 +67,7 @@ export default function OpengraphImage() {
           <div style={{ maxWidth: 640 }}>
             Software house brasileira. Do primeiro diagrama ao monitoramento em produção — agenda 2026 aberta.
           </div>
-          <div style={{ color: '#E85002', fontWeight: 500 }}>projetos@vitral.software</div>
+          <div style={{ color: '#E85002', fontWeight: 500 }}>vitral.softwarehouse@gmail.com</div>
         </div>
       </div>
     ),

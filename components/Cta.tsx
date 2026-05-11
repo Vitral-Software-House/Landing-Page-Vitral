@@ -11,15 +11,15 @@ export function Cta() {
               Conte o problema.<br />
               Devolvemos uma proposta <span className="em">em até 2 dias úteis</span>.
             </h2>
-            <a href="mailto:projetos@vitral.software" className={styles.btn}>
+            <a href="mailto:vitral.softwarehouse@gmail.com" className={styles.btn}>
               <span className={styles.dot} aria-hidden="true"></span> Iniciar conversa
             </a>
           </div>
 
           <aside className={styles.card}>
             <div className={styles.lbl}>Direto com o time</div>
-            <a href="mailto:projetos@vitral.software" className={styles.email}>
-              projetos@vitral.software
+            <a href="mailto:vitral.softwarehouse@gmail.com" className={styles.email}>
+              vitral.softwarehouse@gmail.com
             </a>
             <div className={styles.row}>
               <span>Resposta</span><span>até 2 dias úteis</span>

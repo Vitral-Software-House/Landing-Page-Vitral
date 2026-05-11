@@ -111,7 +111,7 @@ const organizationJsonLd = {
     { '@type': 'Person', name: 'Rafael', jobTitle: 'Engenheiro de software' },
     { '@type': 'Person', name: 'Luiz', jobTitle: 'Desenvolvedor mobile' },
   ],
-  email: 'projetos@vitral.software',
+  email: 'vitral.softwarehouse@gmail.com',
   areaServed: { '@type': 'Country', name: 'Brasil' },
   knowsAbout: [
     'Desenvolvimento de produto',
@@ -161,6 +161,7 @@ export default function RootLayout({
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(professionalServiceJsonLd) }}
         />
+        <script src="https://whatsa.me/bt-min.js?link=https://whatsa.me/5515998031973"></script>
       </body>
     </html>
   );
