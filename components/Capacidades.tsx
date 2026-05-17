@@ -19,33 +19,26 @@ const ITEMS: Capacidade[] = [
   {
     num: '/02',
     title: 'Integração de APIs & sistemas',
-    desc: 'Conectamos ERPs, CRMs, gateways de pagamento e ferramentas internas em uma única camada coerente — versionada e testada.',
-    tags: ['REST / GraphQL', 'Webhooks', 'ERP & CRM', 'SAP / Totvs / Salesforce'],
+    desc: 'Conectamos serviços externos, gateways de pagamento e ferramentas internas em uma única camada coerente — versionada e testada.',
+    tags: ['REST / GraphQL', 'Webhooks', 'Gateways de pagamento', 'APIs de terceiros'],
   },
   {
     num: '/03',
     title: 'Deploy & infraestrutura',
     desc: 'Pipelines de CI/CD, infraestrutura como código, observabilidade e ambientes reproduzíveis em nuvem pública ou privada.',
-    tags: ['AWS / GCP', 'Kubernetes', 'Terraform', 'GitHub Actions'],
+    tags: ['AWS', 'Docker', 'VPS', 'GitHub Actions'],
   },
   {
     num: '/04',
-    title: 'Automação de processos',
-    desc: 'Workflows que substituem planilhas e tarefas manuais por rotinas auditáveis — com humanos no controle, não no caminho.',
-    tags: ['RPA', 'ETL', 'Workflows internos', 'LLM tooling'],
-    orange: true,
+    title: 'Manutenção',
+    desc: 'Contratos contínuos de suporte com SLA — correções prioritárias, atualizações de dependências e roadmap de evolução compartilhado.',
+    tags: ['SLA dedicado', 'Correções', 'Deploy contínuo', 'Roadmap'],
   },
   {
     num: '/05',
-    title: 'Manutenção & SRE',
-    desc: 'Contratos contínuos de suporte com SLA, monitoramento 24/7, correções prioritárias e roadmap de evolução compartilhado.',
-    tags: ['SLA dedicado', 'Observability', 'On-call', 'Pós-incidente'],
-  },
-  {
-    num: '/06',
-    title: 'Discovery & arquitetura',
-    desc: 'Antes de uma linha de código: mapeamento do domínio, definição de escopo, escolha de tecnologias e estimativas honestas.',
-    tags: ['Event storming', 'Domain modeling', 'RFC interno', 'Estimativa por fase'],
+    title: 'Planejamento & fases',
+    desc: 'Antes de uma linha de código: definição de escopo, divisão em fases de entrega, escolha de tecnologias e estimativas honestas.',
+    tags: ['Escopo definido', 'Fases de entrega', 'Escolha de stack', 'Estimativa por fase'],
   },
 ];
 
@@ -56,7 +49,7 @@ export function Capacidades() {
         <div className="section-head">
           <div className="eyebrow">02 / Capacidades</div>
           <h2 className="section-title">
-            Um único time responsável pelo <span className="em">ciclo inteiro</span> — da arquitetura ao deploy contínuo.
+            Um único time responsável pelo <span className="em">ciclo inteiro</span> — do planejamento ao deploy contínuo.
           </h2>
         </div>
 

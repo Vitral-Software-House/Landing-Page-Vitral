@@ -12,15 +12,15 @@ type Step = {
 const STEPS: Step[] = [
   {
     num: '01',
-    title: 'Discovery',
-    desc: 'Imersão técnica e de produto: entendemos o domínio, riscos, integrações existentes e o que precisa estar de pé no mês um.',
+    title: 'Planejamento',
+    desc: 'Imersão técnica e de produto: entendemos o domínio, riscos, integrações existentes e definimos as fases e o que precisa estar de pé no mês um.',
     duration: '1 semana',
     pricing: 'fixo',
   },
   {
     num: '02',
-    title: 'Arquitetura',
-    desc: 'Decisões registradas em RFC — banco, modelo de dados, autenticação, contratos de API e esquemas de deploy. Domínio e hospedagem ficam por conta do cliente.',
+    title: 'Estruturação',
+    desc: 'Decisões técnicas registradas em documento — banco, modelo de dados, autenticação, contratos de API e plano de deploy. Domínio e hospedagem ficam por conta do cliente.',
     duration: '1 semana',
     pricing: 'incluso',
   },
@@ -35,7 +35,7 @@ const STEPS: Step[] = [
   {
     num: '04',
     title: 'Operação',
-    desc: 'Manutenção e monitoramento ficam disponíveis como contrato opcional — o cliente decide se quer com a Vitral ou com time próprio.',
+    desc: 'Manutenção de código e deploy ficam disponíveis como contrato opcional — o cliente decide se quer suporte contínuo com a Vitral ou gerenciar com time próprio.',
     duration: 'opcional',
     pricing: 'escolha do cliente',
   },

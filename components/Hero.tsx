@@ -23,7 +23,7 @@ export function Hero() {
 
         <div className={styles.foot}>
           <p className={styles.lede}>
-            Projetamos, desenvolvemos, integramos e mantemos plataformas digitais para empresas que tratam software como núcleo do negócio. Do primeiro diagrama ao monitoramento em produção.
+            Projetamos, desenvolvemos, integramos e mantemos plataformas digitais para empresas que tratam software como núcleo do negócio. Do primeiro diagrama ao deploy em produção.
           </p>
 
           <div className={`${styles.stat} ${styles.statOrange}`}>
